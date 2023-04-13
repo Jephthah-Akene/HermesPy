@@ -2,7 +2,7 @@
 
 HERMES is a Python project that implements the Queued State Machine Producer-Consumer (QSM-PC) architecture for simulating data acquisition, aggregation, processing, and logging. The project aims to simulate three parallel data acquisition processes (temperature, pressure, voltage) and includes an aggregator, a data processor for basic statistical analysis, and a data logging processor that saves the data to a CSV file.
 
-For questions or feature requests, please contact Jephthah Akene at 0xtachi@gmail.com. As an independent researcher, I built this project purely for the joy of creating something both enjoyable and practical. If you love to tinker and build innovative control systems, feel free to email me!
+For questions or feature requests, please contact **Jephthah Akene** at 0xtachi@gmail.com. As an independent researcher, I built this project purely for the joy of creating something both enjoyable and practical. If you love to tinker and build innovative control systems, feel free to email me!
 
 ## Table of Contents
 
