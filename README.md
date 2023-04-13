@@ -20,6 +20,9 @@ To run the HERMES project, you need to have the following Python packages instal
 - csv
 - time
 - datetime
+- pandas
+- prettytable
+- tabulate
 
 ## Getting Started
 
@@ -29,6 +32,20 @@ To get started with HERMES, you can follow these steps:
 - Install the required Python packages.
 - Open a terminal or command prompt and navigate to the project directory.
 - Run the main script by executing python main.py.
+
+## How to Run the system
+
+- To run the HERMES project, follow these steps: `git clone https://github.com/YOUR-USERNAME/HermesPy.git`
+
+- Clone the repository to your local machine: `cd HermesPy`
+
+- Navigate to the project directory:  `pip install pandas prettytable tabulate`
+
+- Install the required Python packages: `pip install pandas prettytable tabulate`
+
+- Run the main script by executing python main.py: `python main.py`
+
+- The program will run until you stop it with Ctrl+C. The processed data will be logged to a CSV file called data.csv, and a table of the last 10 processed data items will be printed to the console.
 
 ## Project Structure
 
