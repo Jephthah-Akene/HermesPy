@@ -25,37 +25,38 @@ To run the HERMES project, you need to have the following Python packages instal
 
 To get started with HERMES, you can follow these steps:
 
--Clone the repository to your local machine.
--Install the required Python packages.
--Open a terminal or command prompt and navigate to the project directory.
--Run the main script by executing python main.py.
+- Clone the repository to your local machine.
+- Install the required Python packages.
+- Open a terminal or command prompt and navigate to the project directory.
+- Run the main script by executing python main.py.
 
 ## Project Structure
 
 The HERMES project follows the following file structure:
 
-├──aggregator.py
+├──data_aggregator.py
 
 ├──data_processor.py
 
-├──data_logging_processor.py
+├──data_logger.py
 
 ├──main.py
 
 ├──README.md
 
-├──temperature_daq.py
+├──daq_pressure.py
 
-├──pressure_daq.py
+├──daq_temperature.py
 
-└──voltage_daq.py
+└──daq_voltage.py
 
 
 - `main.py`: Main script that runs the project and creates threads for the DAQs, aggregator, data processor, and data logging processor.
-- `temperature_daq.py, pressure_daq.py, voltage_daq.py`: Separate threads that simulate the data acquisition process for each type of data.
+- `daq_temperature.py, daq_pressure.py, daq_voltage.py`: Separate threads that simulate the data acquisition process for each type of data.
 - `aggregator.py`: Separate thread that aggregates the data from the DAQs into time series.
 - `data_processor.py`: Separate thread that processes the aggregated data by performing basic statistical analysis.
-- `data_logging_processor.py`: Separate thread that logs the aggregated and processed data to a CSV file.
+- `data_logger.py`: Separate thread that logs the aggregated and processed data to a CSV file and prints a table of the last 10 processed data items.
+- `processed_data.csv`: CSV file that stores the logged data.
 - `README.md`: Project documentation that provides an overview of the project, instructions on how to set up and run the project, and a detailed outline of the project structure.
 
 ## Conclusion
