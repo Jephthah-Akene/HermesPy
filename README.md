@@ -34,23 +34,6 @@ To get started with HERMES, you can follow these steps:
 
 The HERMES project follows the following file structure:
 
-├──data_aggregator.py
-
-├──data_processor.py
-
-├──data_logger.py
-
-├──main.py
-
-├──README.md
-
-├──daq_pressure.py
-
-├──daq_temperature.py
-
-└──daq_voltage.py
-
-
 - `main.py`: Main script that runs the project and creates threads for the DAQs, aggregator, data processor, and data logging processor.
 - `daq_temperature.py, daq_pressure.py, daq_voltage.py`: Separate threads that simulate the data acquisition process for each type of data.
 - `aggregator.py`: Separate thread that aggregates the data from the DAQs into time series.
