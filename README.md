@@ -6,13 +6,13 @@ For questions or feature requests, please contact Jephthah Akene at 0xtachi@gmai
 
 ## Table of Contents
 
-- Project Objective
-- Fundamentals of the system
-- Prerequisites
-- Getting Started
-- How to Run the system
-- Project Structure
-- Conclusion
+- [Project Objective](#project-objective)
+- [Fundamentals of the system](#fundamentals-of-the-system)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [How to Run the system](#how-to-run-the-system)
+- [Project Structure](#project-structure)
+- [Conclusion](#conclusion)
 
 ## Project Objective
 
