@@ -36,7 +36,7 @@ The HERMES project follows the following file structure:
 
 - `main.py`: Main script that runs the project and creates threads for the DAQs, aggregator, data processor, and data logging processor.
 - `daq_temperature.py, daq_pressure.py, daq_voltage.py`: Separate threads that simulate the data acquisition process for each type of data.
-- `aggregator.py`: Separate thread that aggregates the data from the DAQs into time series.
+- `data_aggregator.py`: Separate thread that aggregates the data from the DAQs into time series.
 - `data_processor.py`: Separate thread that processes the aggregated data by performing basic statistical analysis.
 - `data_logger.py`: Separate thread that logs the aggregated and processed data to a CSV file and prints a table of the last 10 processed data items.
 - `processed_data.csv`: CSV file that stores the logged data.
